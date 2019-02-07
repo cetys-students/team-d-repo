@@ -1,1 +1,3 @@
-# team-d-repo
+# team-d
+##team information
+###Jibrian 
