@@ -28,6 +28,15 @@
 # 0 ≤ N ≤ 30.
 
 class Solution:
-        def fib(self, N: 'int') -> 'int':
-                  pass
-##el mike
+    def fib(self, N: 'int') -> 'int':
+        if N == 0:
+            n = 0
+        elif N == 1:
+            n = 1
+        else:
+            n = self.fib(N - 1) + self.fib(N - 2)
+        return n
+
+
+n = Solution().fib(6)
+print(n)
