@@ -1,3 +1,0 @@
-def definite_integral(samples, lower_limit, upper_limit, sampling_period)
-
-def sample_integral(samples,sampling_period):
